@@ -1,0 +1,6 @@
+# Ignore everthing
+**
+
+!docs/**
+!mkdocs.yml
+!requirements.txt
