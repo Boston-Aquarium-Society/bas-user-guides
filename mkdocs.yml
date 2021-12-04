@@ -1,6 +1,30 @@
 site_name: Boston Aquarium Society Tech Docs
 repo_url: https://github.com/Boston-Aquarium-Society/bas-user-guides
 
+nav:
+  - Home: index.md
+  - Webmaster:
+      - Core Tools & Expectations: webmaster/core_tools.md
+      - User Management:
+        - Site Staff: webmaster/user_management/site_staff.md
+        - Calendar: webmaster/user_management/calendar.md
+        - New Webmaster Onboarding: webmaster/user_management/webmaster_onboarding.md
+      - Site Maintenance:
+          - Backup: webmaster/site_maintenance/backup.md
+          - Access the VM: webmaster/site_maintenance/accessing_vm.md
+          - Update Ghost: webmaster/site_maintenance/ghost.md
+          - Update VM: webmaster/site_maintenance/vm.md
+      - Site Design: webmaster/site_design.md
+      - Site Analytics: webmaster/analytics.md
+      - Domain Registration: webmaster/domain_registration.md
+  - Content Maintainer:
+    - Getting Started: content_maintainer/getting_started.md
+    - Calendar: content_maintainer/calendar.md
+    - Adding Site Content:
+        - Meeting Announcements: content_maintainer/adding_site_content/meetings.md
+        - Site Pages: content_maintainer/adding_site_content/pages.md
+        - Articles: content_maintainer/adding_site_content/aquarium_articles.md
+
 markdown_extensions:
   - abbr
   - admonition
@@ -10,6 +34,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -19,6 +46,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - markdownextradata: {}
   - git-revision-date-localized:
       enable_creation_date: true
 
@@ -46,3 +74,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
+extra:
+  site:
+    url: bas.jamescurtin.dev
+    theme_source: https://github.com/Boston-Aquarium-Society/bostonaquariumsocietydotorg
