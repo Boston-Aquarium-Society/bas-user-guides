@@ -1,7 +1,7 @@
 jinja2==3.0.3
 markdown==3.3.6
 mkdocs-git-revision-date-localized-plugin==0.11.1
-mkdocs-markdownextradata-plugin==0.2.4
+mkdocs-markdownextradata-plugin==0.2.5
 mkdocs-material-extensions==1.0.3
 mkdocs-material==8.1.2
 mkdocs==1.2.3
