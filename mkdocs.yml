@@ -48,7 +48,7 @@ plugins:
   - search
   - markdownextradata: {}
   - git-revision-date-localized:
-      enable_creation_date: true
+      enable_creation_date: false
 
 theme:
   name: material
@@ -77,5 +77,5 @@ theme:
 
 extra:
   site:
-    url: bas.jamescurtin.dev
+    url: docs.bostonaquariumsociety.org
     theme_source: https://github.com/Boston-Aquarium-Society/bostonaquariumsocietydotorg

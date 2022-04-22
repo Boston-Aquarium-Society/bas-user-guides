@@ -7,10 +7,11 @@ You will need to SSH into our VM to perform the following maintenance. If you
 do not know how to do so, read the
 [accessing the VM](/webmaster/site_maintenance/accessing_vm) page first.
 
-Make sure that NPM is up to date:
+Make sure that NPM and the Ghost CLI are up to date:
 
 ```terminal
 npm install -g npm
+npm install -g ghost-cli@latest
 ```
 
 Before proceeding, make sure to switch over to the Ghost manager account, and
