@@ -21,4 +21,4 @@ account (*e.g.* have an `@gmail.com` email). You can also ask the webmaster to
 grant you access to add and update calendar events.
 
 Once you have access to the site, go to the
-[site's admin homepage](https://{{ site.url }}/ghost).
+[site's admin homepage](https://{{ site.base_url }}/ghost).

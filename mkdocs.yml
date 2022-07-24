@@ -8,12 +8,15 @@ nav:
       - User Management:
         - Site Staff: webmaster/user_management/site_staff.md
         - Calendar: webmaster/user_management/calendar.md
+        - Google Analytics: webmaster/user_management/google_analytics.md
         - New Webmaster Onboarding: webmaster/user_management/webmaster_onboarding.md
       - Site Maintenance:
           - Backup: webmaster/site_maintenance/backup.md
           - Access the VM: webmaster/site_maintenance/accessing_vm.md
           - Update Ghost: webmaster/site_maintenance/ghost.md
           - Update VM: webmaster/site_maintenance/vm.md
+      - VM Configuration:
+          - System Memory: webmaster/vm_configuration/system_memory.md
       - Site Design: webmaster/site_design.md
       - Site Analytics: webmaster/analytics.md
       - Domain Registration: webmaster/domain_registration.md
@@ -24,6 +27,7 @@ nav:
         - Meeting Announcements: content_maintainer/adding_site_content/meetings.md
         - Site Pages: content_maintainer/adding_site_content/pages.md
         - Articles: content_maintainer/adding_site_content/aquarium_articles.md
+        - Static Content (e.g. Forms): content_maintainer/adding_site_content/static_content.md
 
 markdown_extensions:
   - abbr
@@ -78,4 +82,5 @@ theme:
 extra:
   site:
     url: docs.bostonaquariumsociety.org
+    base_url: bostonaquariumsociety.org
     theme_source: https://github.com/Boston-Aquarium-Society/bostonaquariumsocietydotorg

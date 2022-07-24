@@ -15,4 +15,4 @@ There are two types of backups configured on our site:
 
 [do-backup-docs]: https://docs.digitalocean.com/products/images/backups/
 [ghost-backup-docs]: https://ghost.org/help/the-importer/#exports-in-ghost
-[labs-settings]: https://https://{{ site.url }}/ghost/settings/labs
+[labs-settings]: https://{{ site.base_url }}/ghost/settings/labs
