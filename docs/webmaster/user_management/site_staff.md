@@ -26,4 +26,4 @@ User permissions can be upgraded, downgraded, or suspended by an admin once
 the user has accepted the invitation and joined.
 
 [staff-docs]: https://ghost.org/docs/staff/
-[staff-management]: https://{{ site.url }}/ghost/settings/staff/
+[staff-management]: https://{{ site.base_url }}/ghost/settings/staff/
