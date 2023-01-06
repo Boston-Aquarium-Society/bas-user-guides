@@ -59,6 +59,7 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon.png
   features:
+    - content.code.copy
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
