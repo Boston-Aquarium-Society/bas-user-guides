@@ -45,7 +45,7 @@ logs to see who made changes and accessed club resources.
 The webmaster also has a separate service account login for all resources. In
 general, this account should not be used; it exists for "break glass" scenarios.
 
-Access to these credentials is managed by LastPass so that access can be granted
+Access to these credentials is managed by 1Password so that access can be granted
 securely and access is audited.
 
 ### Web Hosting

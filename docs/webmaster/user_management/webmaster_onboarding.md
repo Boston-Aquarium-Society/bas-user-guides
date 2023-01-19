@@ -8,7 +8,6 @@ If the new webmaster does not already have accounts for the following sites,
 they must create them first
 
 1. Google (*i.e.* you will need an `@gmail.com` account)
-1. LastPass (a free https://www.lastpass.com/ account is sufficient)
 1. DigitalOcean (It is best to select "Sign up with Google" so your account
    is already associated with your Gmail account)
 1. Github account
@@ -17,10 +16,11 @@ they must create them first
 
 The following can only be done by the previous webmaster:
 
-1. In LastPass, open `Sharing Center` then `manage` the sharing settings of the
-   BAS shared folder.
+1. Once logged into 1Password, navigate to [my.1password.com/people](https://my.1password.com/people).
    * Invite the new webmaster. They will need to accept the invitation before
-     they are able to view the passwords
+     they are able to view the passwords.
+   * Once they have activated their account, edit their membership so that they are a
+     manager of the `Owners` and `Administrators` groups.
 1. In Digital Ocean, log into the BAS project, open the "Settings" tab, and then
    `Invite Members`.
 1. In Github, go to the [user page][bas-github], and invite them as a user.
