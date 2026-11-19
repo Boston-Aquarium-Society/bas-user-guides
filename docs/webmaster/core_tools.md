@@ -54,10 +54,23 @@ We use Digital Ocean (DO) for web hosting. DO has extremely comprehensive how-to
 guides and documentation. If you encounter issues when administering our DO
 account, chances are you will be able to find docs that help.
 
+### Cloudflare
+
+The site sits behind Cloudflare, which handles DNS and filters traffic before
+it reaches Ghost. Custom security rules live here. Any rule you add should be
+written down in the private `bas-management` repo, not in these guides.
+
+### Mailgun
+
+Ghost sends member emails (sign-in links, newsletters) through Mailgun.
+If emails stop arriving, or the delivery or complaint rate looks off, start
+here.
+
 ### Github
 
-Github is (currently) used to host the theme for our blog, as well as
-auto-publish this documentation site. The [BAS Github Organization][bas-github]
+Github is (currently) used to host the theme for our blog, the site
+configuration (the `bas-management` repo), and this documentation site, which
+auto-publishes from its `main` branch. The [BAS Github Organization][bas-github]
 is used to store all repositories.
 
 [bas-github]: https://github.com/Boston-Aquarium-Society/

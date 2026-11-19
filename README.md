@@ -19,3 +19,9 @@ You can also run without docker with Python 3 installed:
 pip install -r requirements.txt
 mkdocs serve
 ```
+
+## Keeping it up to date
+
+Whenever a club role or procedure changes, update the matching guide here.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for what that covers and what must
+never be committed (secrets and member personal details).
