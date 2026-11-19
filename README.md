@@ -17,7 +17,7 @@ You can also run without docker with Python 3 installed:
 
 ```command
 pip install -r requirements.txt
-mkdocs serve
+zensical serve
 ```
 
 ## Keeping it up to date

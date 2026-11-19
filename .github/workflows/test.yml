@@ -1,4 +1,4 @@
-name: mkdocs testing
+name: docs build
 on: pull_request
 jobs:
   test-build:
@@ -11,4 +11,4 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict
+      - run: zensical build --strict

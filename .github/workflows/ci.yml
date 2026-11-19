@@ -14,4 +14,5 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force
+      - run: zensical build --strict
+      - run: ghp-import --no-jekyll --push --force --message "Deploy ${GITHUB_SHA} with Zensical" site
