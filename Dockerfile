@@ -1,4 +1,1 @@
-FROM squidfunk/mkdocs-material
-
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+FROM zensical/zensical:0.1.2
