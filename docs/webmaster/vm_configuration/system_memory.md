@@ -9,4 +9,4 @@ enabled.
 If the amount of swap space become insufficient or needs to be configured,
 please follow [this guide][swapspace-guide].
 
-[swapspace-guide]: (https://www.digitalocean.com/community/tutorial_collections/how-to-add-swap-space)
+[swapspace-guide]: https://www.digitalocean.com/community/tutorial_collections/how-to-add-swap-space
