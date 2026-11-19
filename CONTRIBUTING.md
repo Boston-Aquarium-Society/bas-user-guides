@@ -26,6 +26,9 @@ These guides are published on the public docs site. Don't commit:
 * Passwords, API keys, tokens or other secrets. Point to 1Password instead.
 * Member personal details (emails, phone numbers, addresses), including
   member exports or backups.
+* Security details: attack patterns, blocked networks, firewall rules or
+  anything else that tells an attacker what we watch for. Those belong in
+  the private `bas-management` repo.
 
 ## How to make a change
 
