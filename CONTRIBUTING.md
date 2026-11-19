@@ -21,7 +21,7 @@ says what changed so it isn't lost.
 
 ## What not to put in here
 
-This repo is public. Don't commit:
+These guides are published on the public docs site. Don't commit:
 
 * Passwords, API keys, tokens or other secrets. Point to 1Password instead.
 * Member personal details (emails, phone numbers, addresses), including
