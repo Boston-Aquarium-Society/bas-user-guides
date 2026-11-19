@@ -41,5 +41,5 @@ These guides are published on the public docs site. Don't commit:
 ## Regular review
 
 Each time you do the quarterly site maintenance, skim the Webmaster pages
-and fix anything that no longer matches what you just did. Each page shows
-when it was last updated at the bottom, which makes stale pages easy to spot.
+and fix anything that no longer matches what you just did. To spot stale
+pages, check when each file under `docs/` last changed in its GitHub history.
